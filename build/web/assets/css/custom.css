@@ -1,0 +1,29 @@
+/*
+Custom Css
+*/
+.category-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-link.active,
+.category-link:hover {
+    background-color: #61B87C; 
+    text-decoration: none;
+}
+
+.carousel-caption {
+    left: 5%;
+    right: auto;
+    bottom: auto;
+    top: 0;
+    text-align: left;
+    max-width: 600px;
+}
+
+.shadow-text {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption a {
+    text-decoration: underline;
+}
